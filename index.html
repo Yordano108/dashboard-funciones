@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./img/arrow-236.svg" type="image/x-icon">
+
+    <style type="text/tailwindcss">
+        @import "tailwindcss";
+        @theme {
+            --font-sans: "Rubik", system-ui, sans-serif;
+        } 
+
+
+        .glass-panel {
+            background: rgba(44, 51, 51, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 255, 209, 0.15);
+        }
+    </style>
+    <title>Dashboard Funciones</title>
+</head>
+
+<body
+    class="bg-gradient-to-tr from-[#2C3333] via-[#0E8388] to-[#00FFD1] min-h-screen p-4 md:p-8 bg-fixed text-white font-sans flex items-center justify-center">
+
+    <div class="max-w-7xl mx-auto my-auto w-full p-6">
+
+        <header class="text-center pb-20">
+            <h1
+                class="text-4xl md:text-6xl font-black text-white tracking-wider drop-shadow-[0_4px_10px_rgba(0,0,0,0.4)]">
+                FUNCIONES JS
+            </h1>
+        </header>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+
+            <div class="glass-panel p-6 rounded-3xl hover:border-[#00FFD1]/50 transition-all">
+                <h2 class="text-[#00FFD1] font-black text-lg mb-4 border-b border-[#0E8388] pb-2 font-mono">STRINGS I
+                </h2>
+                <ul class="space-y-3 text-xs tracking-wide font-mono">
+                    <li>
+                        <a href="html/1-contar-caracteres.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1">
+                            <span>›</span> 1. Contar Caracteres
+                        </a>
+                    </li>
+                    <li>
+                        <a href="html/2-recortar-texto.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1">
+                            <span>›</span> 2. Recortar Texto
+                        </a>
+                    </li>
+                    <li>
+                        <a href="html/3-string-a-array.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1">
+                            <span>›</span> 3. String a Array
+                        </a>
+                    </li>
+                    <li>
+                        <a href="html/4-repetir-texto.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1">
+                            <span>›</span> 4. Repetir Texto
+                        </a>
+                    </li>
+                    <li>
+                        <a href="html/5-invertir-texto.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1">
+                            <span>›</span> 5. Invertir Texto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-3xl hover:border-[#00FFD1]/50 transition-all">
+                <h2 class="text-[#00FFD1] font-black text-lg mb-4 border-b border-[#0E8388] pb-2 font-mono">STRINGS II
+                </h2>
+                <ul class="space-y-3 text-xs tracking-wide font-mono">
+                    <li><a href="html/6-contar-texto-repetido.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            6. Contar Texto Repetido</a></li>
+                    <li><a href="html/7-validar-palindromo.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            7. Validar Palíndromo</a></li>
+                    <li><a href="html/8-eliminar-patrones.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            8. Eliminar Patrones</a></li>
+                    <li><a href="html/9-numero-aleatorio.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            9. Aleatorio</a></li>
+                    <li><a href="html/10-conversor-temperatura.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            10. Conversor de Temperatura</a></li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-3xl hover:border-[#00FFD1]/50 transition-all">
+                <h2 class="text-[#00FFD1] font-black text-lg mb-4 border-b border-[#0E8388] pb-2 font-mono">MATEMÁTICAS
+                </h2>
+                <ul class="space-y-3 text-xs tracking-wide font-mono">
+                    <li><a href="html/11-conversor-base.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            11. Conversor de Base Numérica</a></li>
+                    <li><a href="html/12-calculo-años.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            12. Cálculo de Años Transcurridos</a></li>
+                    <li><a href="html/13-contador-vocales-consonantes.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            13. Contador de Vocales y
+                            Consonantes</a></li>
+                    <li><a href="html/14-validador-nombre.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            14. Validador de Nombre</a></li>
+                    <li><a href="html/15-validador-email.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            15. Validador de Email</a></li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-3xl hover:border-[#00FFD1]/50 transition-all">
+                <h2 class="text-[#00FFD1] font-black text-lg mb-4 border-b border-[#0E8388] pb-2 font-mono">ARRAYS Y
+                    LOGICA</h2>
+                <ul class="space-y-3 text-xs tracking-wide font-mono">
+                    <li><a href="html/16-array-cuadrado.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            16. Números al Cuadrado</a></li>
+                    <li><a href="html/17-max-min-array.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            17. Máximo y Mínimo</a></li>
+                    <li><a href="html/18-clasificador-pares-impares.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            18. Clasificador de Pares e Impares</a></li>
+                    <li><a href="html/19-ordenador-arrays.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            19. Ordenador Ascendente y Descendiente</a></li>
+                    <li><a href="html/20-eliminar-duplicados.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            20. Eliminar Elementos Duplicados</a></li>
+                    <li><a href="html/21-promedio-array.html"
+                            class="flex items-center gap-2 border-b border-[#0E8388]/20 pb-2 hover:text-[#00FFD1] hover:pl-2 transition-all block py-1"><span>›</span>
+                            21. Calcular Promedio</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

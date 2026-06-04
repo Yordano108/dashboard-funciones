@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18. Clasificador de Pares e Impares</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="../img/18.svg" type="image/x-icon">
+    <style type="text/tailwindcss">
+        .glass-panel {
+            background: rgba(44, 51, 51, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 255, 209, 0.15);
+        }
+    </style>
+</head>
+
+<body
+    class="bg-gradient-to-tr from-[#2C3333] via-[#0E8388] to-[#00FFD1] text-white p-4 sm:p-8 font-mono min-h-screen flex flex-col items-center justify-center">
+    <div class="max-w-2xl w-full glass-panel p-6 sm:p-8 rounded-3xl shadow-2xl">
+        <a href="../index.html"
+            class="text-[#00FFD1] hover:pl-2 transition-all mb-6 inline-block text-sm sm:text-base">← Volver al
+            Dashboard</a>
+        <h1 class="text-2xl sm:text-3xl font-black text-[#00FFD1] mb-6 border-b border-[#0E8388] pb-2">18. Clasificador
+            de Pares e
+            Impares
+        </h1>
+
+        <div class="mb-6 flex flex-col gap-4">
+            <div class="flex flex-col sm:flex-row gap-4 sm:items-end">
+                <div class="flex flex-col gap-2 flex-1">
+                    <label for="array" class="text-xs sm:text-sm text-gray-300 ml-2">Introduce números separados por
+                        comas:</label>
+                    <input type="text" id="array" placeholder="Ej. 1, 2, 3, 4, 5, 6, 7, 8, 9, 0"
+                        class="w-full bg-black/20 border border-[#0E8388]/40 rounded-xl px-4 py-3 text-sm sm:text-base text-white placeholder-gray-500 focus:outline-none focus:border-[#00FFD1] transition-colors">
+                </div>
+
+                <button id="clasificar"
+                    class="w-full sm:w-auto bg-[#0E8388] hover:bg-[#00FFD1] hover:text-[#2C3333] text-white font-bold px-6 py-3 rounded-xl transition-all cursor-pointer uppercase text-xs sm:text-sm tracking-wider whitespace-nowrap">
+                    Clasificar
+                </button>
+            </div>
+        </div>
+
+        <div id="resultado"
+            class="bg-black/30 p-4 rounded-lg border border-[#0E8388]/20 min-h-[100px] flex items-center justify-center text-center">
+            <p class="text-gray-500 italic text-xs sm:text-sm">Introduce un listado numérico para separarlos entre pares
+                e impares
+            </p>
+        </div>
+    </div>
+
+    <script type="module" src="../js/18-clasificador-pares-impares.js"></script>
+</body>
+
+</html>
